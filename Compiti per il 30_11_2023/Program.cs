@@ -14,7 +14,7 @@ namespace Compiti_per_il_30_11_2023
             Console.WriteLine("Inserisci il lato");
             Quadrato quadrato = new Quadrato();
             quadrato.lato = float.Parse(Console.ReadLine());
-            Console.WriteLine("L'area è: " + quadrato.CalcolaSuperficeLato(quadrato.lato));
+            Console.WriteLine("L'area è: " + quadrato.CalcolaSuperficeLato());
             Console.ReadKey();
         }
     }
